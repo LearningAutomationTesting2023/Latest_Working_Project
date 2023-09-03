@@ -1,0 +1,11 @@
+
+<suite name="OpenCart TestNG Suite" verbose="1">
+    <test name="OpenCart Test">
+        <classes>
+            <class name=""/>
+            <methods>
+                <include name=""></include>
+            </methods>
+        </classes>
+    </test>
+</suite>
