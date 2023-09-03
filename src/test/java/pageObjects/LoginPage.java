@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
 
 public class LoginPage extends BasePage{
     public LoginPage(WebDriver driver){
@@ -11,6 +12,7 @@ public class LoginPage extends BasePage{
 
     @FindBy(xpath = "//input[@name='username']")
     WebElement txtUserName;
+
     @FindBy(xpath = "//input[@name='password']")
     WebElement txtPassword;
 

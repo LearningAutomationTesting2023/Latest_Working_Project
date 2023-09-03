@@ -16,10 +16,15 @@ public class BaseClass {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        beforeTest();
+    }
+
+    public void beforeTest(){
+
     }
 
     @AfterTest
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 }
